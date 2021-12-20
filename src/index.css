@@ -1,0 +1,94 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mukta", sans-serif;
+}
+/* my css code here */
+.logo {
+  color: #6a0000 !important;
+}
+.my-nav {
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: #6a0000;
+  transition: 0.3s all linear;
+}
+.my-nav:hover {
+  background-color: #6a0000;
+  color: white;
+}
+/* banner css */
+.banner h1 {
+  font-size: 50px;
+  text-align: left;
+}
+.banner p {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+.img-div img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.img-div {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.4s all linear;
+}
+.img-div:hover {
+  box-shadow: 3px 3px 46px 0px rgba(94, 93, 93, 0.75);
+  -webkit-box-shadow: 3px 3px 46px 0px rgba(94, 93, 93, 0.75);
+  -moz-box-shadow: 3px 3px 46px 0px rgba(94, 93, 93, 0.75);
+  transform: translateY(-15px);
+}
+.img-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-div button {
+  background-color: #6a0000;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition: 0.3s all linear;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+.img-div button:hover {
+  background-color: black;
+  box-shadow: 3px 3px 21px 0px rgba(94, 93, 93, 0.75);
+  -webkit-box-shadow: 3px 3px 21px 0px rgba(94, 93, 93, 0.75);
+  -moz-box-shadow: 3px 3px 21px 0px rgba(94, 93, 93, 0.75);
+}
